@@ -8,7 +8,7 @@ An experimental vibration analysis project investigating how added mass affects 
 
 The beam was excited and allowed to vibrate freely while an accelerometer measured its motion. The voltage signal was recorded in LabVIEW through an NI USB-6341 DAQ at a 1000 Hz sampling rate.
 
-Tests were performed with **0, 1, 3, and 5 lb** of added mass. Oscillation period was estimated from consecutive waveform peaks, and frequency was calculated using `f = 1/T`.
+Tests were performed with 0, 1, 3, and 5 lb of added mass. Oscillation period was estimated from consecutive waveform peaks, and frequency was calculated using `f = 1/T`.
 
 ## Key Features
 
@@ -34,7 +34,7 @@ The measured frequency decreased from 10.13 Hz to 5.92 Hz as the added mass incr
 
 - **Software:** LabVIEW
 - **DAQ:** NI USB-6341
-- **Sensor:** Accelerometer
+- **Sensor:** ADXL335 Accelerometer
 - **Sampling Rate:** 1000 Hz
 - **Analysis:** Time-domain peak detection and frequency estimation
 
